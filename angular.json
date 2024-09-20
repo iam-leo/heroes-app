@@ -36,6 +36,7 @@
             ],
             "styles": [
               "@angular/material/prebuilt-themes/purple-green.css",
+              "node_modules/primeflex/primeflex.min.css",
               "src/styles.css"
             ],
             "scripts": []

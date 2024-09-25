@@ -15,3 +15,6 @@ body {
     background-color: #161215; /* Color de fondo para modo oscuro */
     color: rgba(255, 255, 255, 0.87); /* Texto claro */
 }
+.spacer{
+    flex: 1 1 auto;
+}

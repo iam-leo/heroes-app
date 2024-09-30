@@ -1,0 +1,91 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "usuario": "admin",
+      "email": "admin@correo.com"
+    }
+  ],
+  "heroes": [
+    {
+      "id": "marvel-spider",
+      "superheroe": "Spider-Man",
+      "editorial": "Marvel Comics",
+      "alter_ego": "Peter Parker",
+      "primera_aparicion": "Amazing Fantasy #15",
+      "personajes": "Peter Parker"
+    },
+    {
+      "id": "marvel-captain",
+      "superheroe": "Capitán América",
+      "editorial": "Marvel Comics",
+      "alter_ego": "Steve Rogers",
+      "primera_aparicion": "Captain America Comics #1",
+      "personajes": "Steve Rogers"
+    },
+    {
+      "id": "marvel-iron",
+      "superheroe": "Iron Man",
+      "editorial": "Marvel Comics",
+      "alter_ego": "Tony Stark",
+      "primera_aparicion": "Tales of Suspense #39",
+      "personajes": "Tony Stark"
+    },
+    {
+      "id": "marvel-thor",
+      "superheroe": "Thor",
+      "editorial": "Marvel Comics",
+      "alter_ego": "Thor Odinson",
+      "primera_aparicion": "Journey into Mystery #83",
+      "personajes": "Thor Odinson"
+    },
+    {
+      "id": "marvel-hulk",
+      "superheroe": "Hulk",
+      "editorial": "Marvel Comics",
+      "alter_ego": "Bruce Banner",
+      "primera_aparicion": "The Incredible Hulk #1",
+      "personajes": "Bruce Banner"
+    },
+    {
+      "id": "marvel-wolverine",
+      "superheroe": "Wolverine",
+      "editorial": "Marvel Comics",
+      "alter_ego": "James Howlett",
+      "primera_aparicion": "The Incredible Hulk #180",
+      "personajes": "James Howlett"
+    },
+    {
+      "id": "marvel-daredevil",
+      "superheroe": "Daredevil",
+      "editorial": "Marvel Comics",
+      "alter_ego": "Matthew Michael Murdock",
+      "primera_aparicion": "Daredevil #1",
+      "personajes": "Matthew Michael Murdock"
+    },
+    {
+      "id": "marvel-hawkeye",
+      "superheroe": "Ojo de Halcón",
+      "editorial": "Marvel Comics",
+      "alter_ego": "Clinton Francis Barton",
+      "primera_aparicion": "Tales of Suspense #57",
+      "personajes": "Clinton Francis Barton"
+    },
+    {
+      "id": "marvel-cyclops",
+      "superheroe": "Cíclope",
+      "editorial": "Marvel Comics",
+      "alter_ego": "Scott Summers",
+      "primera_aparicion": "X-Men #1",
+      "personajes": "Scott Summers"
+    },
+    {
+      "id": "marvel-silver",
+      "superheroe": "Silver Surfer",
+      "editorial": "Marvel Comics",
+      "alter_ego": "Norrin Radd",
+      "primera_aparicion": "The Fantastic Four #48",
+      "personajes": "Norrin Radd"
+    }
+  ]
+}

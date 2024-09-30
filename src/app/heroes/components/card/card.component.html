@@ -4,7 +4,7 @@
         <mat-card-subtitle> {{ hero.alter_ego }} </mat-card-subtitle>
     </mat-card-header>
 
-    <!-- TODO: Imagen -->
+     <img [src]="hero | heroImage" [alt]="hero.superheroe">
 
     <mat-card-content class="mt-2">
         <h4> {{ hero.editorial }}</h4>

@@ -29,15 +29,25 @@ export class NewPageComponent {
   get currentHero(): Hero {
     const hero = this.heroForm.value as Hero;
 
-    console.log({ hero })
-    return hero
+    return hero;
   }
   onSubmit(): void {
     if(this.heroForm.invalid) return;
 
-    this.currentHero
+    if( this.currentHero.id ){
+      this.heroesServices.updateHero( this.currentHero )
+        .subscribe( hero => {
+          // TODO:  mostrar snackbar
+        });
 
-    // this.heroesServices.updateHero( this.heroForm.value )
+        return;
+    }
+
+    this.heroesServices.addHero( this.currentHero )
+      .subscribe( hero => {
+          // TODO:  mostrar snackbar, y navegar a /heroes/edit/hero.id
+        });
+
   }
 
 }

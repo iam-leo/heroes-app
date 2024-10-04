@@ -1,7 +1,7 @@
 {
   "usuarios": [
     {
-      "id": 1,
+      "id": "1",
       "usuario": "admin",
       "email": "admin@correo.com"
     }
@@ -86,6 +86,15 @@
       "alter_ego": "Norrin Radd",
       "primera_aparicion": "The Fantastic Four #48",
       "personajes": "Norrin Radd"
+    },
+    {
+      "id": "",
+      "superheroe": "Deadpool",
+      "editorial": "Marvel Comics",
+      "alter_ego": "Wade Winston Wilson",
+      "primera_aparicion": "New Mutants #98",
+      "personajes": "Wade Winston Wilson",
+      "alt_image": "https://i.pinimg.com/564x/64/d7/50/64d75058f9097c9bfa953bcc8effcf95.jpg"
     }
   ]
 }

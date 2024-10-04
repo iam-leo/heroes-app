@@ -6,13 +6,18 @@
     <div class="col-12 sm:col-6">
         <mat-card>
             <mat-card-content>
-                <div class="grid">
+                <form
+                    class="grid"
+                    [formGroup]="heroForm"
+                    (ngSubmit)="onSubmit()"
+                >
                     <mat-form-field class="col-12 sm:col-6">
                         <mat-label>Superheroe</mat-label>
                         <input
                             type="text"
                             matInput
                             required
+                            formControlName="superheroe"
                         >
                     </mat-form-field>
 
@@ -22,6 +27,7 @@
                             type="text"
                             matInput
                             required
+                            formControlName="alter_ego"
                         >
                     </mat-form-field>
 
@@ -31,12 +37,13 @@
                             type="text"
                             matInput
                             required
+                            formControlName="primera_aparicion"
                         >
                     </mat-form-field>
 
                     <mat-form-field class="col-12">
                         <mat-label>Personajes</mat-label>
-                        <input type="text" matInput required>
+                        <input type="text" matInput required formControlName="personajes">
                     </mat-form-field>
 
                     <mat-form-field class="col-12">
@@ -45,14 +52,19 @@
                             <mat-option *ngFor="let publisher of publishers" [value]="publisher.id"> {{ publisher.value }}</mat-option>
                         </mat-select>
                     </mat-form-field>
-                </div>
+
+                    <mat-form-field class="col-12">
+                        <mat-label>Imagen alternativa</mat-label>
+                        <input type="text" matInput required formControlName="alt_image">
+                    </mat-form-field>
+                </form>
                 <div class="flex justify-content-center gap-6">
                     <button mat-flat-button color="warn">
                         <mat-icon>delete</mat-icon>
                         Borrar
                     </button>
 
-                    <button mat-flat-button color="accent">
+                    <button mat-flat-button color="accent" (click)="onSubmit()">
                         <mat-icon>save</mat-icon>
                         Guardar
                     </button>

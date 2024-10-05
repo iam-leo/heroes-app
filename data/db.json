@@ -13,7 +13,8 @@
       "editorial": "Marvel Comics",
       "alter_ego": "Peter Parker",
       "primera_aparicion": "Amazing Fantasy #15",
-      "personajes": "Peter Parker"
+      "personajes": "Peter Parker",
+      "alt_image": "https://i.pinimg.com/originals/6c/96/16/6c96163a93dad871657602c555c258b4.jpg"
     },
     {
       "id": "marvel-captain",
@@ -95,6 +96,15 @@
       "primera_aparicion": "New Mutants #98",
       "personajes": "Wade Winston Wilson",
       "alt_image": "https://images.squarespace-cdn.com/content/v1/52a86cb9e4b098a46d38a18c/1579613874589-HTCMY3RA1IXA5XXHMFVF/deadpool-v3-flat.jpg?format=750w"
+    },
+    {
+      "id": "Gambito",
+      "superheroe": "Gambito",
+      "editorial": "Marvel Comics",
+      "alter_ego": "Remy Etienne LeBeau",
+      "primera_aparicion": "Uncanny X-Men #266",
+      "personajes": "Remy Etienne LeBeau",
+      "alt_image": "https://i.pinimg.com/originals/1a/d4/2c/1ad42c1cffb41f8e4c1b8581b6ecc655.jpg"
     }
   ]
 }

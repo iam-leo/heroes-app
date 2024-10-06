@@ -76,7 +76,7 @@ export class NewPageComponent implements OnInit{
     }
 
     // NOTE:  si se crea un nuevo superheroe, se setea el id con el nombre del superheroe
-    this.currentHero.id = this.currentHero.superheroe;
+    this.currentHero.id = this.formatId(this.currentHero.superheroe);
 
     this.heroesServices.addHero( this.currentHero )
       .subscribe( hero => {
@@ -84,6 +84,10 @@ export class NewPageComponent implements OnInit{
           this.showSnackBar(`${hero.superheroe} guardado!`)
         });
 
+  }
+
+  formatId( id: string): string {
+    return id.trim().toLowerCase().replace(/\s+/g, '-');
   }
 
   showSnackBar( message: string ): void {

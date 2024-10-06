@@ -87,24 +87,6 @@
       "alter_ego": "Norrin Radd",
       "primera_aparicion": "The Fantastic Four #48",
       "personajes": "Norrin Radd"
-    },
-    {
-      "id": "Deadpool1",
-      "superheroe": "Deadpool",
-      "editorial": "Marvel Comics",
-      "alter_ego": "Wade Winston Wilson",
-      "primera_aparicion": "New Mutants #98",
-      "personajes": "Wade Winston Wilson",
-      "alt_image": "https://images.squarespace-cdn.com/content/v1/52a86cb9e4b098a46d38a18c/1579613874589-HTCMY3RA1IXA5XXHMFVF/deadpool-v3-flat.jpg?format=750w"
-    },
-    {
-      "id": "Gambito",
-      "superheroe": "Gambito",
-      "editorial": "Marvel Comics",
-      "alter_ego": "Remy Etienne LeBeau",
-      "primera_aparicion": "Uncanny X-Men #266",
-      "personajes": "Remy Etienne LeBeau",
-      "alt_image": "https://i.pinimg.com/originals/1a/d4/2c/1ad42c1cffb41f8e4c1b8581b6ecc655.jpg"
     }
   ]
 }

@@ -9,7 +9,6 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 export class ConfirmDialogComponent {
   readonly dialogRef = inject(MatDialogRef<ConfirmDialogComponent>);
   readonly data = inject(MAT_DIALOG_DATA);
-  readonly hero = model(this.data.hero);
 
   onNoClick(): void {
     this.dialogRef.close(false);

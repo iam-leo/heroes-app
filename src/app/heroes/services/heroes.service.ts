@@ -48,8 +48,8 @@ export class HeroesService {
 
     return this.http.delete(`${this.apiUrl}/heroes/${ id }`)
       .pipe(
+        map( resp => true), //Registro eliminado correctamente
         catchError( error => of(false)), //Error si no existe
-        map( resp => true) //Registro eliminado correctamente
       )
   }
 }

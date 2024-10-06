@@ -1,6 +1,6 @@
 <h2 mat-dialog-title>¿ Estás seguro ?</h2>
 <mat-dialog-content>
-    <p>Este proceso es irreversible, estás a punto de eliminar a: HEROE</p>
+    <p>Este proceso es irreversible, estás a punto de eliminar a: <span class="font-semibold">{{ data.superheroe }} </span></p>
 </mat-dialog-content>
 <mat-dialog-actions class="flex justify-content-center">
     <button mat-raised-button color="warn" (click)="onNoClick()">Cancelar</button>

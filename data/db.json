@@ -1,8 +1,8 @@
 {
   "usuarios": [
     {
-      "id": "1",
-      "usuario": "admin",
+      "id": 1,
+      "user": "admin",
       "email": "admin@correo.com"
     }
   ],
@@ -13,8 +13,7 @@
       "editorial": "Marvel Comics",
       "alter_ego": "Peter Parker",
       "primera_aparicion": "Amazing Fantasy #15",
-      "personajes": "Peter Parker",
-      "alt_image": "https://i.pinimg.com/originals/6c/96/16/6c96163a93dad871657602c555c258b4.jpg"
+      "personajes": "Peter Parker"
     },
     {
       "id": "marvel-captain",

@@ -2,7 +2,7 @@
   "usuarios": [
     {
       "id": 1,
-      "usuario": "admin",
+      "user": "admin",
       "email": "admin@correo.com"
     }
   ],

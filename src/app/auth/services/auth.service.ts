@@ -22,10 +22,15 @@ export class AuthService {
     /*  NOTE:  en un backend normal deberia ser así:
                this.http.post<User>( `${this.baseUrl}/login`, { email, password } );
     */
-   return this.http.get<User>( `${this.baseUrl}/users/1`)
+   return this.http.get<User>( `${this.baseUrl}/usuarios/1`)
     .pipe(
       tap( user => this.user = user ),
-      tap( user => localStorage.setItem( 'token', user.id.toString() ) ),
+      tap( user => localStorage.setItem( 'token', 'asdadASD.Hfghgfh.RTrtyRuyUi456' ) ),
     )
+  }
+
+  logout() {
+    this.user = undefined;
+    localStorage.clear();
   }
 }

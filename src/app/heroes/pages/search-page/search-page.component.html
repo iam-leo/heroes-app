@@ -15,5 +15,7 @@
         </mat-autocomplete>
     </mat-form-field>
 
-    {{selectedHero | json}}
+    <div class="col-12 sm:col-4 md:col-3 xl:col-3 mx-auto">
+        <heroes-hero-card *ngIf="selectedHero" [hero]="selectedHero"></heroes-hero-card>
+    </div>
 </div>
